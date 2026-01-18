@@ -1,0 +1,29 @@
+{
+  "name": "be.elab.nesmulti",
+  "version": "2026.1.18",
+  "displayName": "Multiplayer with UDP NES Controller",
+  "description": "Tool to create quick multiplayer NES game on LAN",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://github.com/EloiStree/2026_01_18_upm_nes_udp_multiplayer",
+  "changelogUrl": "https://github.com/EloiStree/2026_01_18_upm_nes_udp_multiplayer/tree/main",
+  "licensesUrl": "https://github.com/EloiStree/License",
+ "keywords": [
+        "Script",
+        "Tool",
+        "Productivity"
+    ],     
+ "samples": [
+    {
+      "displayName": "Demo Scene",
+      "description": "A sample scene that demonstrates the features of this package.",
+      "path": "Scene/Demo"
+    }
+  ],
+  "author": {
+    "name": "Eloi Stree",
+    "mail": "",
+    "url": "https://github.com/EloiStree/"
+  }
+}
+
