@@ -119,6 +119,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &106886381 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 324190449}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
 --- !u!1 &288810257
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,6 +199,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1523980106}
     m_Modifications:
+    - target: {fileID: 444312972892502073, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 3023528161421499813, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
       propertyPath: m_Name
       value: MovingCubePlayer (9)
@@ -235,13 +250,27 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2835105221824017372, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
 --- !u!4 &324190450 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4428592862916623023, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
   m_PrefabInstance: {fileID: 324190449}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &362776988 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 1917577129}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
 --- !u!1001 &472027873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -250,6 +279,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1523980106}
     m_Modifications:
+    - target: {fileID: 444312972892502073, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 3023528161421499813, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
       propertyPath: m_Name
       value: MovingCubePlayer (8)
@@ -297,13 +330,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2835105221824017372, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
 --- !u!4 &472027874 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4428592862916623023, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
   m_PrefabInstance: {fileID: 472027873}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &540573748 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 1999491511}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
+--- !u!114 &560351313 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 472027873}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
 --- !u!1 &613373514
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,6 +373,7 @@ GameObject:
   - component: {fileID: 613373517}
   - component: {fileID: 613373516}
   - component: {fileID: 613373515}
+  - component: {fileID: 613373518}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -389,13 +448,57 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613373514}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.70710784}
+  m_LocalPosition: {x: 0, y: 16.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &613373518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613373514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1001 &790010626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -404,6 +507,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1523980106}
     m_Modifications:
+    - target: {fileID: 444312972892502073, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 3023528161421499813, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
       propertyPath: m_Name
       value: MovingCubePlayer (2)
@@ -451,7 +558,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2835105221824017372, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
 --- !u!4 &790010627 stripped
 Transform:
@@ -466,6 +576,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1523980106}
     m_Modifications:
+    - target: {fileID: 444312972892502073, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 3023528161421499813, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
       propertyPath: m_Name
       value: MovingCubePlayer (7)
@@ -513,13 +627,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2835105221824017372, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
 --- !u!4 &1036225173 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4428592862916623023, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
   m_PrefabInstance: {fileID: 1036225172}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1074528228 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 790010626}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
+--- !u!114 &1144042575 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 1036225172}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
 --- !u!1 &1315582378
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,6 +771,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1317513813 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 1400717432}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
 --- !u!1 &1359349799
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,6 +856,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1523980106}
     m_Modifications:
+    - target: {fileID: 444312972892502073, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 3023528161421499813, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
       propertyPath: m_Name
       value: MovingCubePlayer (4)
@@ -753,13 +907,27 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2835105221824017372, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
 --- !u!4 &1400717433 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4428592862916623023, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
   m_PrefabInstance: {fileID: 1400717432}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1448717168 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 1578136080}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
 --- !u!1 &1523980105
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,11 +985,15 @@ MonoBehaviour:
   m_parentToOverwatch: {fileID: 1523980105}
   m_playerFound:
   - {fileID: 5545224742004292202}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 540573748}
+  - {fileID: 1074528228}
+  - {fileID: 362776988}
+  - {fileID: 1317513813}
+  - {fileID: 1706946900}
+  - {fileID: 1448717168}
+  - {fileID: 1144042575}
+  - {fileID: 560351313}
+  - {fileID: 106886381}
   m_refreshListAtStart: 1
   m_overridePlayerIndexWithOrderAtStart: 1
 --- !u!1001 &1530946667
@@ -832,6 +1004,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1523980106}
     m_Modifications:
+    - target: {fileID: 444312972892502073, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 3023528161421499813, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
       propertyPath: m_Name
       value: MovingCubePlayer (5)
@@ -879,7 +1055,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2835105221824017372, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
 --- !u!4 &1530946668 stripped
 Transform:
@@ -894,6 +1073,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1523980106}
     m_Modifications:
+    - target: {fileID: 444312972892502073, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 3023528161421499813, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
       propertyPath: m_Name
       value: MovingCubePlayer (6)
@@ -941,13 +1124,27 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2835105221824017372, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
 --- !u!4 &1578136081 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4428592862916623023, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
   m_PrefabInstance: {fileID: 1578136080}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1706946900 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 1530946667}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
 --- !u!1001 &1917577129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -956,6 +1153,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1523980106}
     m_Modifications:
+    - target: {fileID: 444312972892502073, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 3023528161421499813, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
       propertyPath: m_Name
       value: MovingCubePlayer (3)
@@ -1003,7 +1204,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2835105221824017372, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
 --- !u!4 &1917577130 stripped
 Transform:
@@ -1018,6 +1222,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1523980106}
     m_Modifications:
+    - target: {fileID: 444312972892502073, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 3023528161421499813, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
       propertyPath: m_Name
       value: MovingCubePlayer (1)
@@ -1065,7 +1273,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2835105221824017372, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
 --- !u!4 &1999491512 stripped
 Transform:
@@ -1218,6 +1429,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1523980106}
     m_Modifications:
+    - target: {fileID: 444312972892502073, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
     - target: {fileID: 3023528161421499813, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
       propertyPath: m_Name
       value: MovingCubePlayer
@@ -1265,7 +1480,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2835105221824017372, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
 --- !u!4 &9031304316488448503 stripped
 Transform:
