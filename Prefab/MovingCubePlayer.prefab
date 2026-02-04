@@ -85,7 +85,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &444312972892502073
 MonoBehaviour:
@@ -145,7 +144,6 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -224,6 +222,7 @@ GameObject:
   - component: {fileID: 8779386274508837442}
   - component: {fileID: 136177247174774880}
   - component: {fileID: 5793848393457558054}
+  - component: {fileID: 263731755671868532}
   m_Layer: 0
   m_Name: MovingCubePlayer
   m_TagString: Untagged
@@ -327,7 +326,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &136177247174774880
 BoxCollider:
@@ -377,6 +375,28 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &263731755671868532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3023528161421499813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8980c373a169d548aa623be2f5ab718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_UnderMapRespawn
+  m_positionAtOnEnable: {x: 0, y: 0, z: 0}
+  m_rigidBodyToReset: {fileID: 5793848393457558054}
+  m_targetToMove: {fileID: 4428592862916623023}
+  m_unityThresholdY: -10
+  m_onBeforeRespawned:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onAfterRespawned:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &4308035120206546904
 PrefabInstance:
   m_ObjectHideFlags: 0
