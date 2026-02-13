@@ -18,12 +18,12 @@ For this you need two tool;
 
 In the NES workshop we used:
 ```
- Menu Left 1309 2309
- Menu Right 1308 2308
- Up Arrow 1331 2331
- Down Arrow 1335 2335
- Left Arrow 1337 2337
- Right Arrow 1333 2333
- A button 1300 2300
- B button 1301 2301
+Menu Left   1309 2309
+Menu Right  1308 2308
+Up Arrow    1311 2311  
+Down Arrow  1315 2315
+Left Arrow  1317 2317
+Right Arrow 1313 2313
+A Button    1300 2300
+B Button    1302 2302
 ```
