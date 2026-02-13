@@ -20,14 +20,16 @@ public class NesMultiMono_IntToUnityEvent : MonoBehaviour
     //Right Arrow 1333 2333
     //A button 1300 2300
     //B button 1301 2301
-    public int m_intKeyArrowUp = 1331;
-    public int m_intKeyArrowRight = 1333;
-    public int m_intKeyArrowLeft = 1337;
-    public int m_intKeyArrowDown = 1335;
-    public int m_intKeyMenuLeft = 1309;
-    public int m_intKeyMenuRight = 1308;
-    public int m_intKeyButtonA = 1300;
-    public int m_intKeyButtonB = 1301;
+
+
+    public int[] m_intKeyArrowUp =new int[] { 1331, 1311 , 1341, 1352,1356};
+    public int[] m_intKeyArrowRight = new int[] { 1333, 1313,1343 ,1350,1354 }; 
+    public int[] m_intKeyArrowLeft = new int[] { 1337,1317,1347 ,1351,1355 };
+    public int[] m_intKeyArrowDown = new int[] { 1335 ,1315,1345,1353,1357};
+    public int[] m_intKeyMenuLeft = new int[] { 1309 };
+    public int[] m_intKeyMenuRight = new int[] { 1308 };
+    public int[] m_intKeyButtonA = new int[] { 1300 };
+    public int[] m_intKeyButtonB = new int[] { 1302,1301,1303 };    
 
 
     public UnityEvent<Vector2> m_onArrowUpdated;
@@ -40,90 +42,113 @@ public class NesMultiMono_IntToUnityEvent : MonoBehaviour
     public UnityEvent<bool> m_onButtonAPressed;
     public UnityEvent<bool> m_onButtonBPressed;
 
+    public bool IsInCommandPress(in int value, in int[] array)
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (value == array[i])
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+    public bool IsInCommandRelease(in int value, in int[] array)
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (value == array[i]+1000)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public void PushInIntegerToEvent(int value)
     {
-        if (value == m_intKeyArrowLeft)
+        if (IsInCommandPress(value, m_intKeyArrowLeft))
             m_onArrowLeftPressed?.Invoke(true);
-        else if (value == m_intKeyArrowLeft + 1000)
+        else if (IsInCommandRelease(value, m_intKeyArrowLeft))
             m_onArrowLeftPressed?.Invoke(false);
-        else if (value == m_intKeyArrowRight)
+        else if (IsInCommandPress(value, m_intKeyArrowRight))
             m_onArrowRightPressed?.Invoke(true);
-        else if (value == m_intKeyArrowRight + 1000)
+        else if (IsInCommandRelease(value, m_intKeyArrowRight))
             m_onArrowRightPressed?.Invoke(false);
-        else if (value == m_intKeyArrowUp)
+        else if (IsInCommandPress(value, m_intKeyArrowUp))
             m_onArrowUpPressed?.Invoke(true);
-        else if (value == m_intKeyArrowUp + 1000)
+        else if (IsInCommandRelease(value, m_intKeyArrowUp))
             m_onArrowUpPressed?.Invoke(false);
-        else if (value == m_intKeyArrowDown)
+        else if (IsInCommandPress(value, m_intKeyArrowDown))
             m_onArrowDownPressed?.Invoke(true);
-        else if (value == m_intKeyArrowDown + 1000)
+        else if (IsInCommandRelease(value, m_intKeyArrowDown))
             m_onArrowDownPressed?.Invoke(false);
-        else if (value == m_intKeyMenuLeft)
+        else if (IsInCommandPress(value, m_intKeyMenuLeft))
             m_onMenuLeftPressed?.Invoke(true);
-        else if (value == m_intKeyMenuLeft + 1000)
+        else if (IsInCommandRelease(value, m_intKeyMenuLeft))
             m_onMenuLeftPressed?.Invoke(false);
-        else if (value == m_intKeyMenuRight)
+        else if (IsInCommandPress(value, m_intKeyMenuRight))
             m_onMenuRightPressed?.Invoke(true);
-        else if (value == m_intKeyMenuRight + 1000)
+        else if (IsInCommandRelease(value, m_intKeyMenuRight))
             m_onMenuRightPressed?.Invoke(false);
-        else if (value == m_intKeyButtonA)
+        else if (IsInCommandPress(value, m_intKeyButtonA))
             m_onButtonAPressed?.Invoke(true);
-        else if (value == m_intKeyButtonA + 1000)
+        else if (IsInCommandRelease(value, m_intKeyButtonA))
             m_onButtonAPressed?.Invoke(false);
-        else if (value == m_intKeyButtonB)
+        else if (IsInCommandPress(value, m_intKeyButtonB))
             m_onButtonBPressed?.Invoke(true);
-        else if (value == m_intKeyButtonB + 1000)
+        else if (IsInCommandRelease(value, m_intKeyButtonB))
             m_onButtonBPressed?.Invoke(false);
 
-        if (value == m_intKeyArrowLeft)
+        if (IsInCommandPress(value, m_intKeyArrowLeft))
         {
             m_arrowState.x = -1;
             NotifyArrowUpdated();
         }
-        else if (value == m_intKeyArrowRight)
+        else if (IsInCommandPress(value, m_intKeyArrowRight))
         {
             m_arrowState.x = 1;
             NotifyArrowUpdated();
         }
-        else if (value == m_intKeyArrowUp)
+        else if (IsInCommandPress(value, m_intKeyArrowUp))
         {
             m_arrowState.y = 1;
             NotifyArrowUpdated();
         }
-        else if (value == m_intKeyArrowDown)
+        else if (IsInCommandPress(value, m_intKeyArrowDown))
         {
             m_arrowState.y = -1;
             NotifyArrowUpdated();
         }
-        else if (value == m_intKeyArrowLeft + 1000 || value == m_intKeyArrowRight + 1000)
+        else if (IsInCommandRelease(value, m_intKeyArrowLeft) || IsInCommandRelease(value, m_intKeyArrowRight))
         {
             m_arrowState.x = 0;
             NotifyArrowUpdated();
         }
-        else if (value == m_intKeyArrowUp + 1000 || value == m_intKeyArrowDown + 1000)
+        else if (IsInCommandRelease(value, m_intKeyArrowUp) || IsInCommandRelease(value, m_intKeyArrowDown))
         {
             m_arrowState.y = 0;
             NotifyArrowUpdated();
         }
 
-        if (value == m_intKeyMenuLeft)
+        if (IsInCommandPress(value, m_intKeyMenuLeft))
             m_menuLeftState = true;
-        else if (value == m_intKeyMenuLeft + 1000)
+        else if (IsInCommandRelease(value, m_intKeyMenuLeft))
             m_menuLeftState = false;
 
-        if (value == m_intKeyMenuRight)
+        if (IsInCommandPress(value, m_intKeyMenuRight))
             m_menuRightState = true;
-        else if (value == m_intKeyMenuRight + 1000)
+        else if (IsInCommandRelease(value, m_intKeyMenuRight))
             m_menuRightState = false;
 
-        if (value == m_intKeyButtonA)
+        if (IsInCommandPress(value, m_intKeyButtonA))
             m_buttonAState = true;
-        else if (value == m_intKeyButtonA + 1000)
+        else if (IsInCommandRelease(value, m_intKeyButtonA))
             m_buttonAState = false;
 
-        if (value == m_intKeyButtonB)
+        if (IsInCommandPress(value, m_intKeyButtonB))
             m_buttonBState = true;
-        else if (value == m_intKeyButtonB + 1000)
+        else if (IsInCommandRelease(value, m_intKeyButtonB))
             m_buttonBState = false;
 
     }
