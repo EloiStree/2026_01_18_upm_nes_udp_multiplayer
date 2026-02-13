@@ -119,10 +119,32 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &52355375 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 932492918}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
 --- !u!114 &106886381 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
   m_PrefabInstance: {fileID: 324190449}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
+--- !u!114 &114039835 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 449426996}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -605,8 +627,8 @@ Camera:
   m_GameObject: {fileID: 613373514}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -844,6 +866,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4428592862916623023, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
   m_PrefabInstance: {fileID: 932492918}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &994452354 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 477554792}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
 --- !u!1001 &1002620486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1797,6 +1830,12 @@ MonoBehaviour:
   - {fileID: 1144042575}
   - {fileID: 560351313}
   - {fileID: 106886381}
+  - {fileID: 994452354}
+  - {fileID: 114039835}
+  - {fileID: 52355375}
+  - {fileID: 1545998382}
+  - {fileID: 2070822299}
+  - {fileID: 1813520887}
   m_refreshListAtStart: 1
   m_overridePlayerIndexWithOrderAtStart: 1
 --- !u!1001 &1530946667
@@ -1868,6 +1907,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4428592862916623023, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
   m_PrefabInstance: {fileID: 1530946667}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1545998382 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 146140339}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
 --- !u!1001 &1578136080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2127,6 +2177,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
+--- !u!114 &1813520887 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 1002620486}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
 --- !u!1001 &1917577129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2334,6 +2395,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4428592862916623023, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
   m_PrefabInstance: {fileID: 1999491511}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2070822299 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7671738759503564668, guid: aca7b94ef952ae948ae6a061dbe79f7c, type: 3}
+  m_PrefabInstance: {fileID: 1969126641}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1005c4ece0908eb4bbf6048410d360aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nesmulti::NesMultiMono_PlayerReceiverIndexValue
 --- !u!1 &2121135636
 GameObject:
   m_ObjectHideFlags: 0
