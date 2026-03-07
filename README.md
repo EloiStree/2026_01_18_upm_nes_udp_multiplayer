@@ -16,14 +16,14 @@ For this you need two tool;
 - https://github.com/EloiStree/2024_08_29_ScratchToWarcraft/
   - Convention used.
 
-In the NES workshop we used:
-```
-Menu Left   1309 2309
-Menu Right  1308 2308
-Up Arrow    1311 2311  
-Down Arrow  1315 2315
-Left Arrow  1317 2317
-Right Arrow 1313 2313
-A Button    1300 2300
-B Button    1302 2302
-```
+
+| Action      | Server Remap Press | Server Remap Release 
+| ----------- | ----- | ------- 
+| Up Arrow    | 1281  | 2281   
+| Right Arrow | 1282  | 2282   
+| Down Arrow  | 1283  | 2283   
+| Left Arrow  | 1284  | 2284    
+| A Button    | 1285  | 2285    
+| B Button    | 1286  | 2286  
+| Menu Left   | 1287  | 2287   
+| Menu Right  | 1288  | 2288  
